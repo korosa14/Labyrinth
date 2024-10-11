@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour
         if (countdownSeconds <= 0)
         {
             scoreText.text = "00.00";
+
             // 0秒になったときの処理
             //ゲームオーバーシーンに移行
              SceneManager.LoadScene("GameOverScene");
